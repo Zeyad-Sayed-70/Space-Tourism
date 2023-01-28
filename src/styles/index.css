@@ -1,0 +1,106 @@
+/* General Style File */
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Inter:wght@100;300;400;700&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;700&family=Roboto:wght@100&family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Inter:wght@100;300;400;700&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;700&family=Roboto:wght@100&family=Rubik:wght@400;500;700&display=swap');
+
+:root {
+  --background-color: #0B0D17;
+  --text-color-white: #ffffff;
+  --text-color-variant-white: #979797;
+  --text-color-idle-white: #97979754;
+  --text-color-lightBlue: #D0D6F9;
+  --text-color-variant-lightBlue: #D0D6F9;
+  --font-family-bellefair: 'Bellefair', serif;
+  --font-family-berlow: 'Barlow Condensed', sans-serif;
+  --font-size-h1: 150px;
+  --font-size-h2: 100px;
+  --font-size-h3: 56px;
+  --font-size-h4: 32px;
+  --font-size-h5: 28px;
+  --font-size-subheading1: 28px;
+  --font-size-subheading2: 14px;
+  --font-size-navText: 16px;
+  --font-size-switcher: 20px;
+  --font-size-p: 18px;
+  --character-space-x1: 2.35px;
+  --character-space-x2: 2.7px;
+  --character-space-x3: 4.75px;
+  --screen-tablet: 767px;
+  --screen-desktop: 1024px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  font-family: var(--font-family-bellefair);
+  color: var(--text-color-white);
+}
+
+.body-home {
+  background-image: url('../../public/assets/home/background-home-tablet.jpg');
+  background-position: bottom;
+  background-size: cover;
+}
+
+@media (min-width: 767px ) {
+  .body-home {
+  background-image: url('../../public/assets/home/background-home-tablet.jpg');
+  }
+}
+
+@media (min-width: 1025px ) {
+  .body-home {
+    background-image: url('../../public/assets/home/background-home-desktop.jpg');
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  z-index: 1;
+}
+
+@keyframes Beats {
+  0% {
+    width: 0%;
+    height: 0%;
+    opacity: 1;
+  }
+  89% {
+    width: 150%;
+    height: 150%;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes Spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
