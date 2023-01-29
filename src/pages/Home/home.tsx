@@ -8,7 +8,7 @@ const Home = () => {
     return () => {
       document.body.classList.remove('body-home');
     };
-});
+  });
   return (
     <HomePorvider>
       <section className='hero'>

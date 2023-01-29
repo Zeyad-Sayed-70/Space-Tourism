@@ -5,27 +5,6 @@ export const DestinationProvider = styled.main`
     @media (min-width: 1024px) {
         padding-top: 2rem;
     }
-    header {
-        text-transform: uppercase;
-        font-family: var(--font-family-berlow);
-        font-size: var(--font-size-p);
-        letter-spacing: var(--character-space-x2);
-        
-        @media (min-width: 767px) {
-            text-align: start;
-            padding: 0 1rem;
-        }
-        
-        @media (min-width: 1024px) {
-            text-align: center;
-            margin-right: 45rem;
-        }
-        span {
-            color: var(--text-color-idle-white);
-            font-weight: bold;
-            margin-right: .5rem;
-        }
-    }
 
     article {
         display: flex;
@@ -123,24 +102,6 @@ export const DestinationProvider = styled.main`
                 font-weight: 100;
             }
 
-            p {
-                font-family: var(--font-family-berlow);
-                font-size: var(--font-size-p);
-                color: var(--text-color-lightBlue);
-                width: 340px;
-                margin-bottom: 0;
-                line-height: 1.5;
-
-                @media (min-width: 767px) {
-                    width: 480px;
-                }
-            }
-        
-            hr {
-                border-color: var(--text-color-idle-white);
-                margin: 2rem 0 ;
-            }
-
             .statics {
                 text-transform: uppercase;
                 display: flex;
@@ -151,17 +112,6 @@ export const DestinationProvider = styled.main`
                     flex-direction: row;
                     gap: 3rem;
                     justify-content: center;
-                }
-                span {
-                    font-family: var(--font-family-berlow);
-                    font-size: var(--font-size-subheading2);
-                    color: var(--text-color-lightBlue);
-                    letter-spacing: var(--character-space-x1);
-                }
-                h4 {
-                    font-size: var(--font-size-h4);
-                    margin: .5rem 0;
-                    font-weight: 100;
                 }
             }
         }
