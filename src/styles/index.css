@@ -18,6 +18,7 @@
   --font-size-h3: 56px;
   --font-size-h4: 32px;
   --font-size-h5: 28px;
+  --font-size-h6: 24px;
   --font-size-subheading1: 28px;
   --font-size-subheading2: 14px;
   --font-size-navText: 16px;
@@ -57,6 +58,11 @@ body {
   background-position: bottom;
   background-size: cover;
 }
+.body-technology {
+  background-image: url('../../public/assets/technology/background-technology-mobile.jpg');
+  background-position: bottom;
+  background-size: cover;
+}
 @media (min-width: 767px ) {
   .body-home {
     background-image: url('../../public/assets/home/background-home-tablet.jpg');
@@ -66,6 +72,11 @@ body {
   }
   .body-crew {
     background-image: url('../../public/assets/crew/background-crew-tablet.jpg');
+  }
+  .body-technology {
+    background-image: url('../../public/assets/technology/background-technology-tablet.jpg');
+    background-position: bottom;
+    background-size: cover;
   }
 }
 
@@ -78,6 +89,11 @@ body {
   }
   .body-crew {
     background-image: url('../../public/assets/crew/background-crew-desktop.jpg');
+  }
+  .body-technology {
+    background-image: url('../../public/assets/technology/background-technology-desktop.jpg');
+    background-position: bottom;
+    background-size: cover;
   }
 }
 

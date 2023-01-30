@@ -24,23 +24,30 @@ export const HomePorvider = styled.div`
 
         span {
             font-family: var(--font-family-berlow);
-            font-size: var(--font-size-h5);
+            font-size: var(--font-size-h6);
             text-transform: uppercase;
             color: var(--text-color-lightBlue)
         }
         h1 {
             margin: 0;
-            font-size: var(--font-size-h1);
+            font-size: var(--font-size-h2);
             text-transform: uppercase;
         }
         p {
             margin: 0;
             font-family: var(--font-family-berlow);
-            width: 450px;
             font-size: var(--font-size-p);
             color: var(--text-color-lightBlue);
         }
 
+        @media (min-width: 767px) {
+            h1 {
+                font-size: var(--font-size-h1);
+            }
+            span {
+                font-size: var(--font-size-h5);
+            }
+        }
         @media (min-width: 1024px) {
             text-align: left;
             align-items: start;
@@ -56,7 +63,7 @@ export const HomePorvider = styled.div`
             color: var(--background-color);
             border: 0;
             border-radius: 50%;
-            font-size: var(--font-size-h6);
+            font-size: 1.25rem;
             text-transform: uppercase;
             cursor: pointer;
             position: relative;
@@ -65,6 +72,7 @@ export const HomePorvider = styled.div`
             @media (min-width: 1024px) {
                 width: 200px;
                 height: 200px;
+                font-size: 1.5rem;
             }
 
             &::before {

@@ -3,6 +3,7 @@ import Crew from './Crew/crew';
 import Destination from './Destination/destination';
 import Navbar from './generals/Navbar/Navbar';
 import Home from './Home/home';
+import Technology from './Technology/technology';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/destination" element={<Destination />} />
         <Route path="/crew" element={<Crew />} />
+        <Route path="/technology" element={<Technology />} />
       </Routes>
     </Router>
   );

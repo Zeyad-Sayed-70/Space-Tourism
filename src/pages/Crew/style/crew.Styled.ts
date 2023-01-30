@@ -29,8 +29,6 @@ export const CrewProvider = styled.main`
         }
     }
 
-    
-
     .image-container {
         width: 250px;
         height: 350px;
