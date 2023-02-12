@@ -25,7 +25,7 @@ Space-Tourism is a Multi-Pages Website also with beautiful animation effects.
     <td>Strongly typed programming language that builds on JavaScript</td>
   </tr>
   <tr>
-    <td>Jest Testing</td>
+    <td>Cypress</td>
     <td>JavaScript testing framework</td>
   </tr>
    <tr>
