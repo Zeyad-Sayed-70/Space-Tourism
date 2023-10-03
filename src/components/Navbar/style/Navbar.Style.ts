@@ -49,7 +49,11 @@ export const NavbarProvider = styled.main<{ isOpen: boolean }>`
     text-transform: uppercase;
     height: 100%;
     background-color: rgba(208, 214, 249, 0.09);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    -o-backdrop-filter: blur(5px);
+    -ms-backdrop-filter: blur(5px);
     padding-right: 5rem;
     padding-left: 2rem;
     display: none;
